@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/M4-desafio1-fondo.png);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-image: url(img/M4-desafio1-fondo-form.png);
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    background-color: aliceblue;
+}
+
+.form h1, input {
+    background-image: none;
+    background-color: aliceblue;
+}
+
+.form input {
+    width: 300px;
+    padding: 5px;
+}
+
+.submit {
+    color: white;
+    background-image: none;
+    background-color: #15163d;
+    width: 300px;
+    padding: 5px;
+}
